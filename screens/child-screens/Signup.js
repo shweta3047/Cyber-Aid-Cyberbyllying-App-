@@ -86,7 +86,7 @@ const Signup = ({login, registerAsChild, navigation}) => {
           }}
           style={styles.textInput}
         />
-        <TextInput
+        <TextInput secureTextEntry="true"
           placeholder="Password"
           value={authData.password}
           onChangeText={text => {
@@ -97,7 +97,7 @@ const Signup = ({login, registerAsChild, navigation}) => {
           }}
           style={styles.textInput}
         />
-        <TextInput
+        <TextInput secureTextEntry="true"
           placeholder="Confirm Password"
           value={authData.confirm_password}
           onChangeText={text => {
