@@ -54,7 +54,7 @@ const Login = ({login, loginAsParent, navigation, loginAsChild}) => {
           }}
           style={styles.textInput}
         />
-        <TextInput
+        <TextInput secureTextEntry="true"
           placeholder="password"
           value={authData.password}
           onChangeText={text => {
