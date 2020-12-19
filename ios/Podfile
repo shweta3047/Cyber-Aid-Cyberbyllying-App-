@@ -24,6 +24,8 @@ target 'CyberBullyingReactNativeCLI' do
   pod 'lottie-react-native', :path => '../node_modules/lottie-react-native'
 
 
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
   target 'CyberBullyingReactNativeCLITests' do
     inherit! :complete
     # Pods for testing
