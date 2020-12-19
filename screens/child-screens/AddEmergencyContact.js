@@ -2,24 +2,21 @@ import React,{useState} from 'react'
 import { StyleSheet, Text, View  ,Image,KeyboardAvoidingView,ScrollView} from 'react-native';
 import { TextInput,RadioButton ,HelperText,Checkbox,Button} from 'react-native-paper';
 import {colors,fonts} from '../../constants/theme';
-import Entypo from 'react-native-vector-icons/Entypo';
-import Ionicons from 'react-native-vector-icons/Ionicons';
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
-import AntDesign from 'react-native-vector-icons/AntDesign';
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import Feather from 'react-native-vector-icons/Feather';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
+// import { AntDesign,MaterialCommunityIcons,Feather,Entypo} from 'react-native-vector-icons';
+import Icon from 'react-native-vector-icons/FontAwesome5';
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons' 
+import AntDesign from 'react-native-vector-icons/AntDesign'
+import Entypo from 'react-native-vector-icons/Entypo'
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
+import Feather from 'react-native-vector-icons/Feather'
 
-
-
-const EditProfileScreen = (props) => {
+const AddEmergencyContact = (props) => {
 
   const [checked, setChecked] = useState(false);
-  const [fullname,setFullname]=useState('Mary Smith')
-  const [email,setEmail]=useState('marysmith@gmail.com')
-  const [phone,setPhone]=useState('+189279919999')
-  const [age,setAge]=useState('36')
+  const [fullname,setFullname]=useState('')
+  const [email,setEmail]=useState('')
+  const [phone,setPhone]=useState('')
+  const [age,setAge]=useState('')
 
   const hasErrors = () => {
     return !email.includes('@');
@@ -42,7 +39,7 @@ const EditProfileScreen = (props) => {
             <View style={styles.background} >
            <AntDesign name="arrowleft" size={32} color="white" style={{position:"absolute",top:25,left:20}} 
              onPress={()=>props.navigation.navigate('Profile')} />
-            <Text style={styles.profileText}>Edit Profile</Text>
+            <Text style={styles.profileText}>Add Contact</Text>
                 <View style={styles.dpCover} >
                     <Image style={{width:90,height:90}} source={require('../../assets/profilepic.png')} />
                 </View>
@@ -53,7 +50,7 @@ const EditProfileScreen = (props) => {
               <AntDesign name="user" size={24} color={colors.tertiary} 
                   style={{position:'relative',left:20}} />
                 <TextInput style={styles.input}  theme={{colors: {placeholder: 'white', text: 'white', primary: colors.primary,underlineColor: 'transparent'}}}
-                 
+                  underlineColor={colors.primary}  
                   label="Fullname" value={fullname} 
                   onChangeText={text => setFullname(text)} 
                 />
@@ -116,7 +113,7 @@ const EditProfileScreen = (props) => {
 }
 
 
-export default EditProfileScreen;
+export default AddEmergencyContact
 
 
 

@@ -1,11 +1,10 @@
 import React from 'react';
 import {StyleSheet} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-
 import {colors} from '../../constants/theme';
 import HomeScreen from '../../screens/child-screens/HomeScreen';
 import ReportScreen from '../../screens/child-screens/ReportScreen';
-import ProfileScreen from '../../screens/child-screens/ProfileScreen';
+import ProfileStackNavigator from '../../screens/child-screens/ProfileStackNavigator';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
@@ -46,7 +45,7 @@ const TabNavigation = () => {
       }}>
       <Tab.Screen name="Home" component={HomeScreen} />
       <Tab.Screen name="Report" component={ReportScreen} />
-      <Tab.Screen name="Profile" component={ProfileScreen} />
+      <Tab.Screen name="Profile" component={ProfileStackNavigator} />
     </Tab.Navigator>
   );
 };

@@ -2,13 +2,12 @@ import React,{useState} from 'react'
 import { StyleSheet, Text, View  ,Image,KeyboardAvoidingView,ScrollView} from 'react-native';
 import { TextInput,RadioButton ,HelperText,Checkbox,Button} from 'react-native-paper';
 import {colors,fonts} from '../../constants/theme';
-import Entypo from 'react-native-vector-icons/Entypo';
-import Ionicons from 'react-native-vector-icons/Ionicons';
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
-import AntDesign from 'react-native-vector-icons/AntDesign';
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import Feather from 'react-native-vector-icons/Feather';
+import Icon from 'react-native-vector-icons/FontAwesome5';
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons' 
+import AntDesign from 'react-native-vector-icons/AntDesign'
+import Entypo from 'react-native-vector-icons/Entypo'
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
+import Feather from 'react-native-vector-icons/Feather'
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 
