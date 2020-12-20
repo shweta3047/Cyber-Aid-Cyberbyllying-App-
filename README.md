@@ -113,12 +113,11 @@ We created an api in which has the official ids to forward the complaint to, of 
 * The list of email ids of all your teachers on Google classroom will also be shown. You can also send it to any/all of them.
 * On clicking the submit button, the above mentioned things will be done.
 * You can also click on the call button and you will be redirected on your selected provider for calling with the number of the helpline number of your set country.
-![alt text](https://res.cloudinary.com/sh24sh25/image/upload/v1608452874/Cyber-Aid/PicsArt_12-20-01.49.00_iy4tnk.jpg "Blogs and articles")
-    ![alt text](https://res.cloudinary.com/sh24sh25/image/upload/v1608453862/Cyber-Aid/097bc9f4-6171-4373-b352-77d6e88e6b39_xvqr0g.jpg "Professional help")
-
+![alt text](https://res.cloudinary.com/sh24sh25/image/upload/v1608463747/Cyber-Aid/PicsArt_12-20-04.48.19_t8wsns.jpg "Blogs and articles")
+   
 5. **Profile Page**:
    You can see your basic details like name, gender, age, contact number, location and email id. You can also see a list of your emergency/trusted contacts with their basic details. All this can be edited you anytime. By clicking on fetch teachers on Google classroom button, you can also get a list of emails of all your teachers on Google classroom, using the Google classroom API.
-   ![alt text](https://res.cloudinary.com/sh24sh25/image/upload/v1608463747/Cyber-Aid/PicsArt_12-20-04.48.19_t8wsns.jpg "Professional help")
+   ![alt text](https://res.cloudinary.com/sh24sh25/image/upload/v1608463561/Cyber-Aid/PicsArt_12-20-04.51.58_tawva6.jpg "Professional help")
 
 ## Tech Stack/Technologies Used
 * React Native
