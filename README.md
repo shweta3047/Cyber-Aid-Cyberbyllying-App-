@@ -80,27 +80,14 @@ We created an api in which has the official ids to forward the complaint to, of 
    ![alt text](https://res.cloudinary.com/sh24sh25/image/upload/v1608453862/Cyber-Aid/097bc9f4-6171-4373-b352-77d6e88e6b39_xvqr0g.jpg "Professional help")
    
 ### Child Module
-1. **Signup**: Enter full name, email and password.
+1. **Signup**: Enter full name, email and password. You can also add a parent email id, and if given permission to read texts by you, any foul SMS you receive will be shown to the parent when they use the entered parent id to register on the app. 
 
 2. **Login**: Login using email id and password.
 ![alt text](https://res.cloudinary.com/sh24sh25/image/upload/v1608455151/Cyber-Aid/PicsArt_12-20-02.31.38_o2b2dx.jpg "Authentication screens")
 
 3. **HomePage**:
-    1. ***Harmful Message Monitoring***: 
-On clicking this you will see a list of harmful SMS received on the phone of your kid, only if
-          1. The person(your child) has signed up on Cyber-Aid.
-          2. The person has added your Cyber-Aid account email id as their parent id.
-          3. The person has given permission to Cyber-Aid to read their messages. 
-         All of the SMS received by your child will not be displayed here. Only the ones which are detected as having bad words will be shown. This filtering is done by the api created by us. It works like a profanity filter right now, but we plan to replace it with an NLP api to detect messages indicating bullying.
-         **The feature is available only on Android phones.**
-    2. ***Trending Tweets***: 
-    We realise that even though we are all used to this virtual world, some of us(mainly the previous generation) are still not that tech savvy and not able to keep up with everything in the world. We aim to make parents aware of this issue.
-In this section, you can find all the trending tweets pertaining to the issue of cyberbullying which can definitely open your eyes and can help you protect and help your kid.
-   3. ***Latest News***: 
-    Find all the latest news about cyberbullying in one place.
-   4. **Alarming Statistics**:
-These stats are meant to open your eyes to how prevalent this issue is, what are the chances that your kids might be getting cyberbullied and what according to teens would be contributed to cyberbullying.
-
+   The homepage is basically a guide for the general users(i.e. youth/teens), which answers some of the basic, necessary and most obvious questions about cyberbullying.
+   ***Tink, the chatbot***: We realise that a person experiencing cyberbullying, suffers from many mental health issues viz. loneliness, depression etc. By tapping on the chatbot fab, you can talk to Tink, whenever you feel alone. Tink will try its best to make you happy.
    
 ![alt text](https://res.cloudinary.com/sh24sh25/image/upload/v1608455376/Cyber-Aid/PicsArt_12-20-02.38.45_ttc6zj.jpg "Homescreen")
 <!-- ![alt text](https://res.cloudinary.com/sh24sh25/image/upload/v1608452874/Cyber-Aid/PicsArt_12-20-01.41.36_mk3poi.jpg "Homescreen") -->
@@ -123,24 +110,14 @@ We created an api in which has the official ids to forward the complaint to, of 
 * Next you also have the option to forward it to any/all of the emergency contacts that you set in your profile.
 * You also have the option to send it anonymously, as in when you submit the complaint, it won’t be forwarded to the portal directly. It would be forwarded to a social worker/volunteer who would then take up the issue and do the necessary step. 
 * If the anonymous option is not selected the complaint will be forward to the official id of your country, dealing with such issues.
+* The list of email ids of all your teachers on Google classroom will also be shown. You can also send it to any/all of them.
 * On clicking the submit button, the above mentioned things will be done.
 * You can also click on the call button and you will be redirected on your selected provider for calling with the number of the helpline number of your set country.
 ![alt text](https://res.cloudinary.com/sh24sh25/image/upload/v1608452874/Cyber-Aid/PicsArt_12-20-01.49.00_iy4tnk.jpg "Blogs and articles")
-
-
-5. **Guidance Screen**:
-   The screen guides you on ‘What is Cyberbullying’, ‘What can you do if your child is being cyberbullied’, ‘What advice you should give to your child to keep in mind’, ‘How to prevent your kid from being cyber bullied and not to cyberbully to someone else either, ‘Social media apps monitoring steps’.
-   ![alt text](https://res.cloudinary.com/sh24sh25/image/upload/v1608453483/Cyber-Aid/PicsArt_12-20-01.52.59_stymhq.jpg "Blogs and articles")
-<!-- 
     ![alt text](https://res.cloudinary.com/sh24sh25/image/upload/v1608453862/Cyber-Aid/097bc9f4-6171-4373-b352-77d6e88e6b39_xvqr0g.jpg "Professional help")
 
-6. **Fitness & Lifestyle page**: See a list of mental health issues. Tap on an item to explore guidance to get relief from it.
-* On clicking any issue: You can see a list of subcategories.
-* By clicking on any sub-category you will visit a page with posts related to the main issue and pertaining to the selected sub-category. Click on any post to view it. 
-![alt text](https://user-images.githubusercontent.com/43985601/99189358-d6561a00-2786-11eb-8657-9f38f9139324.jpg "Fitness screens")
-![alt text](https://user-images.githubusercontent.com/43985601/99190032-487c2e00-278a-11eb-9594-b94bdf88f55c.jpg "Fitness Sub Screens") -->
-6. **Profile Page**:
-   You can see your basic details like name, gender, age, contact number, location and email id. You can also see a list of your emergency/trusted contacts with their basic details. All this can be edited you anytime.
+5. **Profile Page**:
+   You can see your basic details like name, gender, age, contact number, location and email id. You can also see a list of your emergency/trusted contacts with their basic details. All this can be edited you anytime. By clicking on fetch teachers on Google classroom button, you can also get a list of emails of all your teachers on Google classroom, using the Google classroom API.
    ![alt text](https://res.cloudinary.com/sh24sh25/image/upload/v1608453862/Cyber-Aid/097bc9f4-6171-4373-b352-77d6e88e6b39_xvqr0g.jpg "Professional help")
 
 ## Tech Stack/Technologies Used
@@ -148,6 +125,8 @@ We created an api in which has the official ids to forward the complaint to, of 
 * Node.js
 * Google Firebase
 * MongoDb
+* Google Cloud
+* Canva(for graphic design)
 
 
 ## Future scopes:
