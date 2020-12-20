@@ -110,7 +110,7 @@ We created an api in which has the official ids to forward the complaint to, of 
 * Next you also have the option to forward it to any/all of the emergency contacts that you set in your profile.
 * You also have the option to send it anonymously, as in when you submit the complaint, it won’t be forwarded to the portal directly. It would be forwarded to a social worker/volunteer who would then take up the issue and do the necessary step. 
 * If the anonymous option is not selected the complaint will be forward to the official id of your country, dealing with such issues.
-* The list of email ids of all your teachers on Google classroom will also be shown. You can also send it to any/all of them.
+* The list of email ids of all your teachers on Google classroom will also be shown, using the Google Classroom API. You can also send it to any/all of them. This feature was added 
 * On clicking the submit button, the above mentioned things will be done.
 * You can also click on the call button and you will be redirected on your selected provider for calling with the number of the helpline number of your set country.
 ![alt text](https://res.cloudinary.com/sh24sh25/image/upload/v1608463747/Cyber-Aid/PicsArt_12-20-04.48.19_t8wsns.jpg "Blogs and articles")
