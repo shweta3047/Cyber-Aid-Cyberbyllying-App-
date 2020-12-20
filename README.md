@@ -118,7 +118,7 @@ We created an api in which has the official ids to forward the complaint to, of 
 
 5. **Profile Page**:
    You can see your basic details like name, gender, age, contact number, location and email id. You can also see a list of your emergency/trusted contacts with their basic details. All this can be edited you anytime. By clicking on fetch teachers on Google classroom button, you can also get a list of emails of all your teachers on Google classroom, using the Google classroom API.
-   ![alt text](https://res.cloudinary.com/sh24sh25/image/upload/v1608453862/Cyber-Aid/097bc9f4-6171-4373-b352-77d6e88e6b39_xvqr0g.jpg "Professional help")
+   ![alt text](https://res.cloudinary.com/sh24sh25/image/upload/v1608463747/Cyber-Aid/PicsArt_12-20-04.48.19_t8wsns.jpg "Professional help")
 
 ## Tech Stack/Technologies Used
 * React Native
